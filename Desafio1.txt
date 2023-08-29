@@ -14,7 +14,7 @@ ERRO 3: No cadastro pode criar senhas com apenas um caracter, ou senhas muito si
 
 
 CRIAÇÃO DE CONTAS:
-ERRO 1: Pode-se criar uma nova conta com nomes de apenas um caracter, ou com vários caracteres sem um limite          específico.
+ERRO 1: Pode-se criar uma nova conta com nomes de apenas um caracter, ou com vários caracteres sem um limite específico.
 
 CRIAR MOVIMENTAÇÃO:
 SUGESTÃO 1: Nos campos de datas pode haver barras afim de separar: dia/mês/ano
