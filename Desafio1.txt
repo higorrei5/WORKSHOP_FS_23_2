@@ -1,0 +1,27 @@
+DESAFIO DIA 1
+Heurística de teste do cadastro e login
+(Site Seu Barriga)
+
+PÁGINA DE LOGIN:
+SUGESTÃO 1: Pode haver um botão "Esqueceu sua senha?" afim de recuperar as senhas dos usuários.
+               
+NOVO USUÁRIO:
+ERRO 1: Existe a possibilidade de um novo usuário cadastrar um nome apenas com um caracter.
+ERRO 2: Pode-se cadastrar um novo usuário utilizando um email inexistente. Além de registrar um e-mail fora do padrão obrigatório. Ex: (@gmail.com)
+ERRO 3: No cadastro pode criar senhas com apenas um caracter, ou senhas muito simples.
+(EX: 1234)
+
+
+
+CRIAÇÃO DE CONTAS:
+ERRO 1: Pode-se criar uma nova conta com nomes de apenas um caracter, ou com vários caracteres sem um limite          específico.
+
+CRIAR MOVIMENTAÇÃO:
+SUGESTÃO 1: Nos campos de datas pode haver barras afim de separar: dia/mês/ano
+ERRO 1: Na descrição da movimentação pode-se colocar algo que não especifique a movimentação.
+
+Sugestões:
+1. Inserir uma verificação de usuário na tela de login para uma maior segurança.
+
+
+
