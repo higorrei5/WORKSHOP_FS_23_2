@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de inscrição</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .p1 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 30;
+            color: white;
+        }
+
+        hr {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>FALE CONOSCO</h1>
+    <hr style="border-color: red;">
+    <p><label for="">Usuário:</label></p>
+    <input type="text"><br>
+    <p><label for="">Senha:</label></p>
+    <input type="password">
+    <p><label for="">E-mail:</label></P>
+    <input type="email"><br>
+
+    <p><label>Assunto:</label></p>
+
+    <select name"assunto">
+        <option value"sugestao">sugestao</option>
+        <option value"critica">critica</option>
+        <option value"elogio">elogio</option>
+    </select>
+    <br>
+   <p> <label>Mensagem:</label></p>
+    <br>
+    <textarea name="mensagem" required></textarea>
+    <br>
+    <br>
+    <input type="checkbox" name="termo" value="Concordo com os termos" required>
+    <label>
+        Concordo com os Termos De Privacidade do Site
+    </label><br>
+    <input type="submit" value="Enviar Mensagem">
+</body>
+
+</html>
